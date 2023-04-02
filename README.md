@@ -39,9 +39,13 @@
 ## Testing the System
 1. First create a file named `.test.env` and add below variables in it:
 >DBUser="YOUR_DATABSE_USERNAME_WITH_READWRITE_ACCESS"
+
 >DBPassword="YOUR_DATABSE_USERNAME'S_PASSWORD_WITH_READWRITE_ACCESS"
+
 >DBName="social-web-test"
+
 >DBUrl="mongodb://localhost:27017"
+
 >JWT_SECRET='mySecretKeyTest'
 2. Run `npm run test` to run the test suite
 3. It will run the test cases for the server endpoints and services
