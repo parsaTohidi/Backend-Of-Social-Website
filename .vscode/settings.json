@@ -1,0 +1,7 @@
+{
+    "standard.engine": "ts-standard",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}

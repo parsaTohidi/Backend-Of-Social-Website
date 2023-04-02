@@ -1,0 +1,44 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "types": [
+      "jest",
+      "node"
+    ],
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    },
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "target": "ES5",
+    "module": "commonjs",
+    "outDir": "./build",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "lib": [
+      "ES2015"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "@types"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

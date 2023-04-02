@@ -1,0 +1,7 @@
+.env
+.test.env
+/build
+/node_modules
+.editorconfig
+/coverage
+package-lock.json
